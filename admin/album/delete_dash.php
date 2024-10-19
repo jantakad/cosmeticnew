@@ -3,7 +3,7 @@ session_start();
 include_once("connectdb.php"); // เชื่อมต่อฐานข้อมูล
 
 if (isset($_GET['id'])) {
-    $id = intval($_GET['id']); // แปลงเป็นจำนวนเต็มเพื่อป้องกัน SQL Injection
+    $id = intval($_GET['id']); 
 
     // สร้าง SQL query เพื่อลบข้อมูลโดยใช้ c_id
     $sql = "DELETE FROM customer WHERE cu_id = $id";
