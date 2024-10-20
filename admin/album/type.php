@@ -33,7 +33,7 @@ $categoryId = $_POST['category'] ?? '';
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container">
       <a href="#" class="navbar-brand d-flex align-items-center">
-        <strong>Shine Cosmatic</strong>
+        <strong>Shine Cosmetic</strong>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@ $categoryId = $_POST['category'] ?? '';
 
 <main>
   <section class="py-5 text-center container">
-    <h1>ShineCosmatics</h1>
+    <h1>ShineCosmetics</h1>
     <div class="mb-3">
       <form method="post" action="">
         <label for="search">ค้นหา:</label>
