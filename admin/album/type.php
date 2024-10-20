@@ -1,8 +1,10 @@
 <?php
-  $host = "localhost" ;
-	$usr = "root";
-	$pwd = "ip123456789";
-	$db = "cosmeticnew";
+// connectdb.php (ไฟล์การเชื่อมต่อฐานข้อมูล)
+$servername = "localhost";  // ถ้าคุณใช้ XAMPP ให้ใช้ localhost
+$username = "root";  // ชื่อผู้ใช้ที่ตั้งไว้ตอนติดตั้ง XAMPP
+$password = "";  // ถ้าไม่ได้ตั้งรหัสผ่าน ให้ปล่อยว่าง
+$dbname = "ชื่อฐานข้อมูลของคุณ";  // ใส่ชื่อฐานข้อมูลที่ถูกต้อง
+
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
