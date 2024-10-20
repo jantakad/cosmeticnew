@@ -13,7 +13,6 @@ $categoryId = $_POST['category'] ?? '';
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description" content="">
    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-   <meta name="generator" content="Hugo 0.84.0">
    <title>Album example · Bootstrap v5.0</title>
    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -84,7 +83,7 @@ $categoryId = $_POST['category'] ?? '';
         ?>
           <div class="col">
             <div class="card shadow-sm">
-              <img src="images/<?= htmlspecialchars($data['p_picture']); ?>" width="100%" height="400">
+              <img src="images/<?= htmlspecialchars($data['p_picture']); ?>" width="100%" height="400" alt="<?= htmlspecialchars($data['p_name']); ?>">
               <div class="card-body">
                 <p class="card-text"><?= htmlspecialchars($data['p_name']); ?><br><?= htmlspecialchars($data['p_price']); ?> บาท</p>
               </div>
