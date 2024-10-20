@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $usr = "root";
-$pwd = "";
+$pwd = "ip123456789";
 $db = "cosmeticnew";
 
 // Create connection
