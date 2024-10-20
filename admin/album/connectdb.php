@@ -1,5 +1,5 @@
 <?php
-    $host = "localhost" ;
+    $host = "127.0.0.1";
 	$usr = "root";
 	$pwd = "ip123456789";
 	$db = "cosmeticnew";
