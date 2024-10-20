@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
     $sql = "INSERT INTO category (c_name) VALUES ('{$c_name}')";
 
     if (mysqli_query($conn, $sql)) {
-        echo "<script>alert('เพิ่มประเภทสินค้าสำเร็จ!'); window.location='category_list.php';</script>";
+        echo "<script>alert('เพิ่มประเภทสินค้าสำเร็จ!'); window.location='edit_category.php';</script>";
     } else {
         echo "Error: " . mysqli_error($conn);
     }
@@ -38,7 +38,7 @@ mysqli_close($conn);
         </div>
         <button type="submit" class="btn btn-primary" name="submit">บันทึก</button>
     </form><br>
-    <a href="category_list.php" class="btn btn-primary">กลับไปหน้าหลัก</a>
+    <a href="edit_category.php" class="btn btn-primary">กลับไปหน้าหลัก</a>
 </div>
 </body>
 </html>
