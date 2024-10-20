@@ -74,7 +74,7 @@
         
         <tr>
 			
-            <td><a href="index_check.php" class="btn btn-success w-100 py-2">รายละเอียด</a></td>
+            <td><a href="cosview_order_detail.php" class="btn btn-success w-100 py-2">รายละเอียด</a></td>
             <td><?= $data['oid']; ?></td>
             <td><?= $data['odate']; ?></td>
             <td><?= number_format($data['ototal'], 0); ?></td>
